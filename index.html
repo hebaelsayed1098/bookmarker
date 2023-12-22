@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/png-transparent-bookmark-computer-icons-hyperlink-bar-chart-ribbon-miscellaneous-angle-ribbon.png">
+    <title>Bookmark</title>
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+s
+    <div class="w-75 mx-auto py-5 ">
+      <div class="text-center">
+        <h1>BookMarker</h1>
+        <h2 class="txt py-5"><i class="fa-solid fa-bookmark "></i>Bookmark your favorite sites<i class="fa-solid fa-bookmark"></i></h2>
+    
+      </div>
+     <label class="mb-2" for="siteNameInput"><i class="fa-solid fa-book-bookmark pe-2"></i>Site Name</label>
+     <input type="text" id="siteNameInput" class="form-control mb-3">
+     <label class="mb-2" for="siteURLInput"><i class="fa-solid fa-link pe-2"></i>Site URL</label>
+     <input type="text" id="siteURLInput" class="form-control mb-3">
+    <div class="text-center">
+      <button onclick="addSite()" class=" py-2 btn-submit px-5">Submit</button>
+    
+    </div>
+   </div>
+   
+    <div class="w-75 mx-auto">
+       <table class="table">
+        <thead>
+          <th>Index</th>
+          <th>Website Name</th>
+          <th>Visit</th>
+          <th>Delete</th>
+        </thead>
+       <tbody id="tbody">
+       </tbody>
+       </table>
+    </div>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
